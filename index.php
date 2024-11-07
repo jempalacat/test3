@@ -8,18 +8,18 @@
 </head>
 
 <body>
-	<title>My First Ubuntu Server PHP Deployment</title>
+	<p>My First Ubuntu Server PHP Deployment</p>
 </body>
 
 
-
+<form>
 <div>
 	<label>First Name:</label>
 	<input type="text" name="firstname" class="form-control">
 </div>
 
 <div>
-	<label>Middle Name:</label>
+	<label>Middle Name:</label>	
 	<input type="text" name="middlename" class="form-control">
 </div>
 
@@ -27,6 +27,26 @@
 	<label>Last Name:</label>
 	<input type="text" name="lastname" class="form-control">
 </div>
+
+<div>
+	<label>Age:</label>
+	<input type="text" name="age" class="form-control">
+</div>
+
+<div>
+	<label>Address:</label>
+	<input type="text" name="address" class="form-control">
+</div>
+
+<div>
+	<label>Course & Section:</label>
+	<input type="text" name="coursec" class="form-control">
+</div>
+
+<div>
+	<button type="submit" class="btn btn-primary">Submit</button>
+</div>
+</form>
 
 </html>
 
