@@ -1,8 +1,8 @@
 <?php 
 $servername = "localhost";
-$username = "jem"; // replace with your MySQL username
-$password = "jem"; // replace with your MySQL password
-$database = "form"; // database name
+$username = "acut"; // replace with your MySQL username
+$password = "acut"; // replace with your MySQL password
+$database = "form_data"; // database name
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database);
